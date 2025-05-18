@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Hide Blogger’s default post title */
+.post-title,
+.entry-title,
+.post h1.title {
+  display: none !important;
+}
+
+/* Scope everything inside the .card container */
+.card {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 30px 40px;
+  max-width: 700px;
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+/* Scoped headings */
+.card h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Scoped paragraphs */
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Scoped list styling */
+.card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+/* Scoped strong text */
+.card strong {
+  color: #2980b9;
+}
